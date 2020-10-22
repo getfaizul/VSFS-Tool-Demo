@@ -1,0 +1,20 @@
+{
+  "name": "sbe-ui",
+  "version": "0.0.0",
+  "scripts": {
+    "myPa11y": "npm install -g pa11y",
+    "standard508-test": "node accessability-test/custom-report-HTML",
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
+  },
+  "private": true,
+  "devDependencies": {
+    "pa11y": "^5.1.0",
+    "pa11y-reporter-html": "^1.0.0",
+    "file-system": "^2.2.2"
+  },
+  "dependencies": {
+    "cypress": "^5.4.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  }
+}
